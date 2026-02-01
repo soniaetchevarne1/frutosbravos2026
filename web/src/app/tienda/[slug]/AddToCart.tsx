@@ -50,15 +50,15 @@ export default function AddToCartClient({ product }: { product: Product }) {
                         position: 'fixed',
                         top: '30px',
                         right: '30px',
-                        backgroundColor: 'white',
+                        backgroundColor: 'var(--surface)',
                         padding: '1.25rem 2rem',
                         borderRadius: '24px',
-                        boxShadow: '0 20px 40px rgba(0,0,0,0.2)',
+                        boxShadow: '0 20px 40px rgba(0,0,0,0.5)',
                         display: 'flex',
                         alignItems: 'center',
                         gap: '1.25rem',
                         zIndex: 9999,
-                        border: '4px solid #D4AF37', // Dorado Premium
+                        border: '4px solid var(--secondary)', // Dorado Premium
                     }}
                 >
                     <div style={{
@@ -77,10 +77,10 @@ export default function AddToCartClient({ product }: { product: Product }) {
                     </div>
                     <div style={{ textAlign: 'left' }}>
                         <p style={{ margin: 0, fontWeight: 900, color: 'var(--primary)', fontSize: '1.5rem', lineHeight: 1.1 }}>¡AGREGADO!</p>
-                        <p style={{ margin: 0, color: '#444', fontSize: '1rem', fontWeight: 600 }}>
+                        <p style={{ margin: 0, color: 'var(--text-main)', fontSize: '1rem', fontWeight: 600 }}>
                             {quantity}x {product.name}
                         </p>
-                        <p style={{ margin: 0, color: '#D4AF37', fontSize: '1.1rem', letterSpacing: '2px' }}>😊🥜✨</p>
+                        <p style={{ margin: 0, color: 'var(--secondary)', fontSize: '1.1rem', letterSpacing: '2px' }}>😊🥜✨</p>
                     </div>
                 </div>
             )}
@@ -98,7 +98,7 @@ export default function AddToCartClient({ product }: { product: Product }) {
                     display: 'block',
                     marginBottom: '0.75rem',
                     fontWeight: 600,
-                    color: '#2c3e50',
+                    color: 'var(--text-main)',
                     fontSize: '1rem'
                 }}>
                     Seleccionar peso:
@@ -115,13 +115,13 @@ export default function AddToCartClient({ product }: { product: Product }) {
                                 borderRadius: '10px',
                                 border: selectedWeight.value === option.value
                                     ? '3px solid var(--primary)'
-                                    : '2px solid #ddd',
+                                    : '2px solid var(--border)',
                                 background: selectedWeight.value === option.value
                                     ? 'var(--primary)'
-                                    : 'white',
+                                    : 'var(--surface-alt)',
                                 color: selectedWeight.value === option.value
                                     ? 'white'
-                                    : '#2c3e50',
+                                    : 'var(--text-secondary)',
                                 fontWeight: selectedWeight.value === option.value ? 700 : 600,
                                 cursor: 'pointer',
                                 transition: 'all 0.3s ease',
@@ -140,14 +140,14 @@ export default function AddToCartClient({ product }: { product: Product }) {
             {/* Price Display */}
             <div style={{
                 padding: '1.25rem',
-                background: '#f8f9fa',
+                background: 'var(--surface)',
                 borderRadius: '12px',
                 border: '2px solid var(--primary)',
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '0.25rem'
             }}>
-                <span style={{ fontSize: '0.9rem', color: '#666', fontWeight: 500 }}>Total a pagar:</span>
+                <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 500 }}>Total a pagar:</span>
                 <p style={{
                     fontSize: '2.25rem',
                     fontWeight: 800,
@@ -168,7 +168,7 @@ export default function AddToCartClient({ product }: { product: Product }) {
                     display: 'block',
                     marginBottom: '0.75rem',
                     fontWeight: 600,
-                    color: '#2c3e50',
+                    color: 'var(--text-main)',
                     fontSize: '1rem'
                 }}>
                     Cantidad:
@@ -181,9 +181,9 @@ export default function AddToCartClient({ product }: { product: Product }) {
                             width: '50px',
                             height: '50px',
                             borderRadius: '12px',
-                            border: '2px solid #333',
-                            background: '#2c3e50',
-                            color: 'white',
+                            border: '2px solid var(--border)',
+                            background: 'var(--surface-alt)',
+                            color: 'var(--text-main)',
                             fontSize: '1.5rem',
                             fontWeight: 'bold',
                             cursor: 'pointer',
@@ -196,7 +196,7 @@ export default function AddToCartClient({ product }: { product: Product }) {
                         fontWeight: 700,
                         width: '50px',
                         textAlign: 'center',
-                        color: '#2c3e50'
+                        color: 'var(--text-main)'
                     }}>{quantity}</span>
                     <button
                         type="button"
@@ -205,9 +205,9 @@ export default function AddToCartClient({ product }: { product: Product }) {
                             width: '50px',
                             height: '50px',
                             borderRadius: '12px',
-                            border: '2px solid #333',
-                            background: '#2c3e50',
-                            color: 'white',
+                            border: '2px solid var(--border)',
+                            background: 'var(--surface-alt)',
+                            color: 'var(--text-main)',
                             fontSize: '1.5rem',
                             fontWeight: 'bold',
                             cursor: 'pointer',

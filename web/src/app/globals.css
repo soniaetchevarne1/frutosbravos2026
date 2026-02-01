@@ -5,17 +5,18 @@
   --primary-hover: #D9541E;
   --secondary: #D4AF37;
   /* Muted Gold for accents */
-  --background: #FFFFFF;
-  /* Pure White */
-  --surface: #FFFFFF;
-  --surface-alt: #F7F7F7;
-  /* Neutral Light Grey */
+  --background: #0f0f0f;
+  /* Deep Noir */
+  --surface: #1a1a1a;
+  /* Dark Charcoal */
+  --surface-alt: #242424;
+  /* Muted Grey Layer */
 
-  --text-main: #1F2937;
-  --text-secondary: #4B5563;
-  --text-inverse: #FFFFFF;
+  --text-main: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-inverse: #111827;
 
-  --border: #E5E7EB;
+  --border: #374151;
   --success: #10B981;
   --error: #EF4444;
 
@@ -50,7 +51,7 @@ body {
 }
 
 body {
-  background-color: #fdfdfb;
+  background-color: var(--background);
 }
 
 a {
