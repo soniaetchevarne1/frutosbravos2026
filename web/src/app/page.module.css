@@ -313,11 +313,11 @@
 }
 
 .propCard {
-  background: white;
+  background: var(--surface);
   padding: 2rem 1.5rem;
   border-radius: 20px;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border: 3px solid #f0f0f0;
+  border: 3px solid var(--border);
   position: relative;
   overflow: hidden;
 }
@@ -625,6 +625,7 @@
   font-size: 1.2rem;
   font-weight: 800;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 .favPrice {
