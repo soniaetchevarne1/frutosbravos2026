@@ -725,7 +725,7 @@ const CATEGORY_IMAGES_MAP: Record<string, string> = {
     'Especias y Condimentos': '/products/pimenton.png',
     'Harinas': '/placeholder/harina-almendras.jpg',
     'Semillas y Legumbres': '/placeholder/mix-semilla.jpg',
-    'Maní': '/placeholder/mix-salado.jpg',
+    'Maní': '/categories/mani.png',
     'Cereales': '/placeholder/mix-cereal.jpg',
     'Aceites': '/logo-fruto-bravo.png',
     'Arroz': '/logo-fruto-bravo.png',
