@@ -73,4 +73,5 @@ if %errorlevel% neq 0 (
 )
 
 echo.
-pause
+:: pause removido para ejecucion automatica
+exit /b 0
