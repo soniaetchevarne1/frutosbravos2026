@@ -1,0 +1,83 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #F9F7F2 0%, #F9F7F2 50%, #ffffff 50%, #ffffff 100%);
+  position: relative;
+}
+
+.heroContent {
+  max-width: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Add a subtle decorative circle or shape */
+.hero::after {
+  content: '';
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40vh;
+  height: 40vh;
+  background: var(--primary);
+  border-radius: 50%;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.propsGrid {
+  text-align: center;
+}
+
+.propCard {
+  background: var(--surface);
+  padding: 2.5rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  border: 1px solid transparent;
+}
+
+.propCard:hover {
+  border-color: var(--border);
+  transform: translateY(-5px);
+}
+
+.propIcon {
+  width: 64px;
+  height: 64px;
+  background: var(--surface-alt);
+  color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.addBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--surface-alt);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  font-size: 1.2rem;
+}
+
+.addBtn:hover {
+  background: var(--primary);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background: #F9F7F2;
+    min-height: auto;
+    padding: 4rem 0;
+  }
+}

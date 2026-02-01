@@ -1,0 +1,30 @@
+========================================== 
+  INFORMACION DEL BACKUP - SONIA APP 
+========================================== 
+ 
+Fecha de creacion: jue 29/01/2026 21:04:22,15 
+Nombre del backup: SONIA_APP_PORTABLE_BACKUP_2026-01-29_21-04-21 
+ 
+CONTENIDO: 
+  - Codigo fuente completo de la aplicacion web 
+  - Imagenes de productos subidas: 14 archivos 
+  - Scripts de inicio automatico 
+  - Archivos de configuracion 
+ 
+EXCLUIDO (se regenera automaticamente): 
+  - node_modules/ (dependencias) 
+  - .next/ (archivos compilados) 
+  - .git/ (historial de git) 
+ 
+REQUISITOS PARA RESTAURAR: 
+  - Windows 7 o superior 
+  - Node.js 18 o superior instalado 
+  - Conexion a internet (para instalar dependencias) 
+ 
+INSTRUCCIONES: 
+  1. Copiar esta carpeta completa a la nueva maquina 
+  2. Hacer doble click en "Run Sonia App.bat" 
+  3. Esperar a que se instalen las dependencias 
+  4. La aplicacion se abrira automaticamente en el navegador 
+ 
+Para mas detalles, ver: INSTRUCCIONES_RESTAURACION.md 

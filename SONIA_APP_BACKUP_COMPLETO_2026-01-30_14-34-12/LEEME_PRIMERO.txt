@@ -1,0 +1,27 @@
+==========================================
+  BACKUP COMPLETO - SONIA APP
+==========================================
+
+Fecha de creación: vie 30/01/2026 14:34:51,15
+Nombre del backup: SONIA_APP_BACKUP_COMPLETO_2026-01-30_14-34-12
+
+CONTENIDO DEL BACKUP:
+  - Código fuente completo (web/)
+  - Scripts de inicio (.bat)
+  - Base de datos (db.json)
+  - Imágenes de productos (uploads/)
+  - Archivos de configuración
+  - Documentación
+
+CÓMO RESTAURAR:
+  1. Copia esta carpeta completa a donde quieras
+  2. Abre la carpeta en la terminal
+  3. Ejecuta: cd web
+  4. Ejecuta: npm install
+  5. Ejecuta: npm run build
+  6. Usa "Run Sonia App.bat" para iniciar
+
+NOTA: Este backup es completamente portable
+y puede ser movido a cualquier computadora.
+
+==========================================
