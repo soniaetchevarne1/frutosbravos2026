@@ -100,7 +100,7 @@ export default function Home() {
         <section className="section" style={{ background: 'var(--background)', borderTop: '1px solid var(--border)' }}>
           <div className="container">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem' }}>
-              <h2 className="h2" style={{ fontSize: '2.5rem', color: 'white' }}>
+              <h2 className="h2" style={{ fontSize: '2.5rem', color: 'var(--text-main)' }}>
                 ⭐ <span style={{ color: 'var(--primary)' }}>Favoritos</span> del Equipo
               </h2>
               <Link href="/tienda" className={`btn btn-primary ${styles.viewStoreBtn}`}>
@@ -146,9 +146,9 @@ export default function Home() {
         </section>
 
         {/* Power-Up Value Props */}
-        <section className="section" style={{ background: '#000', borderTop: '3px solid var(--secondary)' }}>
+        <section className="section" style={{ background: 'var(--surface-alt)', borderTop: '3px solid var(--secondary)' }}>
           <div className="container">
-            <h2 className="h2" style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '2.5rem', color: 'rgb(255, 255, 255)' }}>
+            <h2 className="h2" style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '2.5rem', color: 'var(--text-main)' }}>
               ⚡ <span style={{ color: 'var(--primary)' }}>Súper Poderes</span> Frutos Bravos
             </h2>
             <div className={`grid-cols-3 ${styles.propsGrid}`}>

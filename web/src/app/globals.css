@@ -5,18 +5,18 @@
   --primary-hover: #D9541E;
   --secondary: #D4AF37;
   /* Muted Gold for accents */
-  --background: #0f0f0f;
-  /* Deep Noir */
-  --surface: #1a1a1a;
-  /* Dark Charcoal */
-  --surface-alt: #242424;
-  /* Muted Grey Layer */
+  --background: #fdfdfb;
+  /* Premium Off-White */
+  --surface: #ffffff;
+  /* Pure White */
+  --surface-alt: #f3f4f6;
+  /* Light Grey Layer */
 
-  --text-main: #f3f4f6;
-  --text-secondary: #9ca3af;
-  --text-inverse: #111827;
+  --text-main: #1F2937;
+  --text-secondary: #4B5563;
+  --text-inverse: #FFFFFF;
 
-  --border: #374151;
+  --border: #E5E7EB;
   --success: #10B981;
   --error: #EF4444;
 
