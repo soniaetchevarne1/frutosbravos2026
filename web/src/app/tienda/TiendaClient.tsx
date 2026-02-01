@@ -254,7 +254,7 @@ function ProductModal({ product, isOpen, onClose, onAdd }: {
                                 fontSize: '2rem',
                                 fontWeight: '900',
                                 marginBottom: '1rem',
-                                color: '#333',
+                                color: 'var(--primary)',
                                 lineHeight: '1.2'
                             }}>
                                 {product.name}
